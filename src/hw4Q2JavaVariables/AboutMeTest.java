@@ -1,12 +1,10 @@
 package hw4Q2JavaVariables;
 
-
 public class AboutMeTest {
 
 	public static void main(String[] args) {
-		AboutMe info = new AboutMe();//constructor initialized
-		
-		
+		AboutMe info = new AboutMe();// constructor initialized
+
 		info.name = "Runa Jabbar";
 		info.age = 30;
 		info.houseNumber = 455;
@@ -17,9 +15,9 @@ public class AboutMeTest {
 		info.nonCitizen = false;
 		info.imaigineBalance = 9000000000000l;
 		info.aboutMe();
-		
-System.out.println("\n***************************\n");
-		
+
+		System.out.println("\n***************************\n");
+
 		AboutMe info2 = new AboutMe();
 		info2.name = "Alex";
 		info2.age = 33;
@@ -31,11 +29,6 @@ System.out.println("\n***************************\n");
 		info2.nonCitizen = true;
 		info2.imaigineBalance = 80000000000l;
 		info2.aboutMe();
-		
-		
-		
-		
-	
 
 	}
 

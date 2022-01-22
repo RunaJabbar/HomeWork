@@ -1,6 +1,5 @@
 package hw4Q2JavaVariables;
 
-
 public class AboutMe {
 
 	// variables declared below
@@ -13,6 +12,7 @@ public class AboutMe {
 	public float myHeight;
 	public double myGrade;
 	public boolean nonCitizen;
+
 //constructor declared
 	public AboutMe() {
 
@@ -20,13 +20,11 @@ public class AboutMe {
 
 	}
 //method implemented
-	
- public void aboutMe() {
-		System.out.println("My name: " + name + "\nMy house number :"+ houseNumber + "\nMy Age : " + age +"\nBank balance:" + imaigineBalance +"\nSalary:" + mySalary + "\nSex:" + sex +"\nHeight: "+ myHeight + "\nGrade:" + myGrade + "\nImmigration Status: "+ nonCitizen);
+
+	public void aboutMe() {
+		System.out.println("My name: " + name + "\nMy house number :" + houseNumber + "\nMy Age : " + age
+				+ "\nBank balance:" + imaigineBalance + "\nSalary:" + mySalary + "\nSex:" + sex + "\nHeight: "
+				+ myHeight + "\nGrade:" + myGrade + "\nImmigration Status: " + nonCitizen);
 	}
 
-			
-	}
-	
-
-
+}
