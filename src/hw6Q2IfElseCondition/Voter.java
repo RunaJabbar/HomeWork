@@ -7,7 +7,7 @@ public class Voter {
 			System.out.println(age + "I am a voter" + 18);
 		} else if (age < 18) {
 			System.out.println(age + "I am not a voter" + 18);
-		}if (age > 18 || age == 18) {
+		}if (age >= 18) {
 			System.out.println("I am a voter");
 		} else {
 			System.out.println("Please add a valid age");
