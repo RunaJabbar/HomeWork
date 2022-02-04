@@ -7,4 +7,3 @@ public abstract class NursingSchool {
 		System.out.println("This is NursingScool Class");
 	}
 }
-

@@ -7,13 +7,7 @@ public interface University {
 	 * Interface cannot create an object and it cannot declare constructor.
 	 * Object is needed to call method & interface can't create an object
 	 */
-		
-	
 	public void classSize();
 	public void playGround();
 	public void teacher();
-	
-	
-	
-
 }
