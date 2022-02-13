@@ -14,7 +14,7 @@ public class AnimalTest {
 		reptile.reptileInfo();
 		reptile.animalInfo();		
 		System.out.println("\n...............................\n");		
-		Birds birds = new Birds();
+		Birds birds = new Birds();//here Birds is the child class and Animal is the Parent class.
 		birds.birdsInfo();
 		birds.animalInfo();		
 		System.out.println("\n................................\n");
@@ -38,7 +38,7 @@ public class AnimalTest {
 		bullDog.mammalInfo();
 		bullDog.dogInfo();
 		bullDog.animalInfo();	
-//		Multiple hierarchical shown below
+//		Multi level hierarchical shown below
 		System.out.println("\n...................................\n");
 		Cobra cobra = new Cobra();
 		cobra.cobraInfo();
