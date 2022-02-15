@@ -10,4 +10,4 @@ public class EmployeeTest {
 		employee.setUsCitizen(true);
 		System.out.println("Employee name:" + employee.getEmpName() + ",\nAge:" + employee.getEmpAge() + ",\nSex:" + employee.getEmpSex() + ",\nUS Citizen:" + employee.isUsCitizen());		
 	}
-}
+}//We can access these variables by using getter and setter method, by highlighting the variables and then right click select getter & setter choose where to start it from and after which variable then finish.
