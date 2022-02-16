@@ -48,4 +48,6 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Vac
 	@Override
 	public void teacher() {
 	}
+	public static void columbiaUniversity() {		
+	}
 }
