@@ -8,7 +8,7 @@ public class Sister {
 
 	public void sister(int age1, int age2, int age3) {
 		int total = age1 + age2 + age3;
-		System.out.println("Total age of Sister: " + total); 
+		System.out.println("Total age from Sister Class: " + total); 
 	}
 		
 	public int sister(int age2, String age4) {

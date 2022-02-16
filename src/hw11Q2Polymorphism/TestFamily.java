@@ -14,7 +14,7 @@ public class TestFamily {
 		niece.sister();
 		niece.sister(20, "40");
 		niece.sister(10, 20, 30);
-		niece.sister(10, 20, 30, "40", 50, 60);
+		niece.sister(10, 20, -30, "40", 50, 60);
 		
 		
 		
